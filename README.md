@@ -1,30 +1,11 @@
-# React + TypeScript + Vite
+Countries App es una aplicación envolvente desarrollada con las tecnologías líderes de la web, incluyendo React, TypeScript, Bootstrap, y CSS. Su funcionalidad principal se basa en el acceso al API de Restcountries, permitiendo a los usuarios explorar datos detallados de más de 250 países globalmente. La interfaz intuitiva y atractiva, diseñada para dispositivos móviles y pantallas de escritorio con Bootstrap, destaca la búsqueda eficiente de información a través de filtros como región, subregión, nombre o código de país.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+La aplicación ofrece una experiencia completa al brindar detalles clave de cada país, incluyendo capital, población, área, idiomas y moneda, así como la posibilidad de visualizar su ubicación en un mapa interactivo. El diseño responsivo garantiza una experiencia de usuario consistente y agradable, adaptándose a diferentes dispositivos para una accesibilidad óptima.
 
-Currently, two official plugins are available:
+En el núcleo del desarrollo se encuentran React y TypeScript, permitiendo la creación de componentes reutilizables para construir una interfaz de usuario dinámica. La integración de TypeScript añade robustez y mantenibilidad al proyecto.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para instalar la aplicación, simplemente clona el repositorio, navega al directorio correspondiente, instala las dependencias y ejecuta la aplicación localmente.
 
-## Expanding the ESLint configuration
+La contribución a este proyecto es bienvenida. Ya sea identificando problemas o proponiendo nuevas características, los usuarios pueden participar abriendo issues o pull requests. Se agradece a Restcountries por proporcionar un servicio valioso para obtener datos actualizados sobre los países.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+En resumen, Countries App ofrece una experiencia única para explorar y aprender sobre diversos países, combinando tecnologías modernas con un diseño atractivo. ¡Esperamos que disfrutes explorando el mundo con Countries App y agradecemos tu interés y contribuciones!
